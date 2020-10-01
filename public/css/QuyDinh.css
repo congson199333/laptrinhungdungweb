@@ -1,0 +1,78 @@
+.Container{
+	padding-left: 100px;	
+	width: calc(100% - 296px);
+    padding-right: 40px;
+    padding-bottom: 80px;
+    background-color: #fff;
+    padding-top: 5px;
+    font-size: 17px;
+}
+.div1{
+	display: inline;
+}
+
+span.b{
+	color:#093163;
+	font-weight: bold;
+	display: inline;
+}
+#h3 {
+	font-family: urw-din,Arial,sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 40px;	
+    color: #093163;
+}
+
+#muc{
+	font-family: urw-din,Arial,sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-right: 40px;
+    color: #093163;
+	text-decoration: underline;
+}
+
+table#table_denbu{
+	border-collapse: collapse; 
+}
+table#table_denbu td, tr, th{
+ 	border: 1px solid #898F95 ;
+ 	
+ 	height: 60px;
+ 
+ }
+
+table#table_nn1{
+ 	background-color:  #EDF3F7;
+ 	width: 800px;
+ 	border-color: #fff;
+}
+
+table#table_nn2{
+ 	background-color:  #f7f8f9;
+ 	width: 800px;
+ 	border-color: #fff;
+}
+
+table#Tb_PhuNu{
+	background-color:  #EDF3F7;
+	border-collapse: collapse; 
+}
+
+ table{
+ 	border: 1px solid #898F95;
+ 	background-color:  #EDF3F7;
+ }
+

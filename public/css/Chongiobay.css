@@ -1,0 +1,153 @@
+
+.button1{
+	width:465px;
+	height:50px;
+	font-family: urw-din,Arial,sans-serif;
+	font-size:16px;
+	color:blue;
+	background-color:#fff;
+	text-align: center;
+}
+.button2{
+	width:465px;
+	height:50px;
+	font-family: urw-din,Arial,sans-serif;
+	font-size:16px;
+	color:blue;
+	background-color:#fff;
+	text-align: center;
+}
+.button3{
+	width:465px;
+	height:50px;
+	font-family: urw-din,Arial,sans-serif;
+	font-size:16px;
+	color:blue;
+	background-color:#fff;
+	text-align: center;
+}
+.li-active{
+	background-color: #0B0B3B;
+	color: #fff;	
+	text-align: center;
+}
+.li{
+	background-color: #fff;
+	color: #0B0B3B;	
+	text-align: center;
+}
+
+#ol-groups{
+	background-color:  #EDF3F7;
+}
+.h2{
+	margin-left: 100px;
+}
+
+.Lichbaycb{
+	background-color: #0B0B3B;
+	color: #fff;
+	padding: 30px;
+	border-radius: 5px;
+	font-size:20px; 
+	width: 1000px;
+	margin-left: 100px;
+}
+#div-group{
+	
+	border-radius: 4px;
+	width: 1062px;
+	background-color:#fff ;
+	margin-left: 100px;
+	text-align: right;
+	height:150px;
+	
+}
+
+.div1{
+	display: inline-block;	
+	width: 327px;
+	height: 100px;
+	background-color: #fff;
+	color: #0B0B3B;
+	border-radius: 4px;
+	line-height:100px;
+	text-align:center;
+}
+
+.div3{
+	display: inline-block;
+	width: 350px;
+	height: 100px;
+	background-color:#00558F;
+	color: #f1f1f1;
+	margin: 5px 5px;
+	border-radius: 4px;
+
+}
+
+.div2{
+	display: inline-block;
+	width: 350px;
+	height: 100px;
+	background-color:#38702b;
+	color: #f1f1f1;
+	margin: 5px 5px;
+	border-radius: 4px;
+}
+
+.TenHangVe{
+	font-family: urw-din,Arial,sans-serif;
+	margin-right: 20px;
+	margin-top:60px;
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+.GiaVe{
+	font-family: urw-din,Arial,sans-serif;
+	margin-right: 20px;
+	margin-top:60px;
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+.NgayGio{
+	font-family: urw-din,Arial,sans-serif;
+	text-align: center;
+	font-weight:bold;
+	color:black;
+}
+.borderTong{
+	background-color: green;
+	border-radius: 4px;
+	font-family: urw-din,Arial,sans-serif;
+	margin-left:1000px;	
+	height: 70px;
+	width: 220px;
+	font-size:25px;
+	color: #fff;
+}
+.Tong{
+	margin-left: 10px;
+}
+
+	
+button {
+	font-family: Times New Romas;
+	font-size: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
+    height: 36px;
+    width: 399px;
+    color: black;
+    text-align: left;
+    border: 0px solid #666;
+    border-radius: 4px;
+    opacity: 1;
+    transition: .3s opacity;
+    margin-left: 586px;
+    margin-top:20px;
+}

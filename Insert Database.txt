@@ -1,0 +1,320 @@
+INSERT INTO sanbay VALUES('SGN','TP. Hồ Chí Minh');
+INSERT INTO sanbay VALUES('DAD','Đà Nẵng');
+INSERT INTO sanbay VALUES('HAN','Hà Nội');
+INSERT INTO sanbay VALUES('HUI','Thừa Thiên Huế');
+
+
+INSERT INTO tuyenbay VALUES('TB1','DAD','HAN');
+INSERT INTO tuyenbay VALUES('TB2','DAD','SGN');
+INSERT INTO tuyenbay VALUES('TB3','HAN','DAD');
+INSERT INTO tuyenbay VALUES('TB4','HAN','SGN');
+INSERT INTO tuyenbay VALUES('TB5','HAN','HUI');
+INSERT INTO tuyenbay VALUES('TB6','SGN','DAD');
+INSERT INTO tuyenbay VALUES('TB7','SGN','HAN');
+INSERT INTO tuyenbay VALUES('TB8','SGN','HUI');
+INSERT INTO tuyenbay VALUES('TB9','HUI','HAN');
+INSERT INTO tuyenbay VALUES('TB10','HUI','SGN');
+
+
+INSERT INTO maybay VALUES('MB1','QH 156');
+INSERT INTO maybay VALUES('MB2','QH 152');
+INSERT INTO maybay VALUES('MB3','QH 150');
+INSERT INTO maybay VALUES('MB4','QH 151');
+INSERT INTO maybay VALUES('MB5','QH 153');
+INSERT INTO maybay VALUES('MB6','QH 154');
+INSERT INTO maybay VALUES('MB7','QH 155');
+INSERT INTO maybay VALUES('MB8','QH 157');
+INSERT INTO maybay VALUES('MB9','QH 158');
+INSERT INTO maybay VALUES('MB10','QH 159');
+INSERT INTO maybay VALUES('MB11','QH 160');
+INSERT INTO maybay VALUES('MB12','QH 161');
+INSERT INTO maybay VALUES('MB13','QH 162');
+INSERT INTO maybay VALUES('MB14','QH 163');
+INSERT INTO maybay VALUES('MB15','QH 164');
+INSERT INTO maybay VALUES('MB16','QH 165');
+INSERT INTO maybay VALUES('MB17','QH 166');
+INSERT INTO maybay VALUES('MB18','QH 167');
+INSERT INTO maybay VALUES('MB19','QH 168');
+INSERT INTO maybay VALUES('MB20','QH 169');
+
+
+
+INSERT INTO maybay VALUES('MB21','QH 170');
+INSERT INTO maybay VALUES('MB22','QH 171');
+INSERT INTO maybay VALUES('MB23','QH 172');
+INSERT INTO maybay VALUES('MB24','QH 173');
+INSERT INTO maybay VALUES('MB25','QH 174');
+INSERT INTO maybay VALUES('MB26','QH 175');
+INSERT INTO maybay VALUES('MB27','QH 176');
+INSERT INTO maybay VALUES('MB28','QH 177');
+INSERT INTO maybay VALUES('MB29','QH 178');
+INSERT INTO maybay VALUES('MB30','QH 179');
+INSERT INTO maybay VALUES('MB31','QH 180');
+INSERT INTO maybay VALUES('MB32','QH 181');
+INSERT INTO maybay VALUES('MB33','QH 182');
+INSERT INTO maybay VALUES('MB34','QH 183');
+INSERT INTO maybay VALUES('MB35','QH 184');
+INSERT INTO maybay VALUES('MB36','QH 185');
+INSERT INTO maybay VALUES('MB37','QH 186');
+INSERT INTO maybay VALUES('MB38','QH 187');
+INSERT INTO maybay VALUES('MB39','QH 188');
+INSERT INTO maybay VALUES('MB40','QH 189');
+
+
+
+
+
+
+
+
+/*
+INSERT INTO chuyenbay VALUES('CB1','2019-12-23 7:00:00','2019-12-23 8:00:00','50','50','TB1','MB1');
+INSERT INTO chuyenbay VALUES('CB2','2019-12-23 12:00:00','2019-12-23 13:00:00','50','50','TB1','MB2');
+INSERT INTO chuyenbay VALUES('CB3','2019-12-24 7:00:00','2019-12-24 8:00:00','50','50','TB1','MB3');
+INSERT INTO chuyenbay VALUES('CB4','2019-12-24 12:00:00','2019-12-24 13:00:00','50','50','TB1','MB4');
+INSERT INTO chuyenbay VALUES('CB5','2019-12-25 7:00:00','2019-12-25 8:00:00','50','50','TB1','MB5');
+INSERT INTO chuyenbay VALUES('CB6','2019-12-25 12:00:00','2019-12-25 13:00:00','50','50','TB1','MB6');
+INSERT INTO chuyenbay VALUES('CB7','2019-12-26 7:00:00','2019-12-26 8:00:00','50','50','TB1','MB7');
+INSERT INTO chuyenbay VALUES('CB8','2019-12-26 12:00:00','2019-12-26 13:00:00','50','50','TB1','MB8');
+INSERT INTO chuyenbay VALUES('CB9','2019-12-27 7:00:00','2019-12-27 8:00:00','50','50','TB1','MB9');
+INSERT INTO chuyenbay VALUES('CB10','2019-12-27 12:00:00','2019-12-27 13:00:00','50','50','TB1','MB10');
+INSERT INTO chuyenbay VALUES('CB11','2019-12-28 7:00:00','2019-12-28 8:00:00','50','50','TB1','MB11');
+INSERT INTO chuyenbay VALUES('CB12','2019-12-28 12:00:00','2019-12-28 13:00:00','50','50','TB1','MB12');
+INSERT INTO chuyenbay VALUES('CB13','2019-12-29 7:00:00','2019-12-29 8:00:00','50','50','TB1','MB13');
+INSERT INTO chuyenbay VALUES('CB14','2019-12-29 12:00:00','2019-12-29 13:00:00','50','50','TB1','MB14');
+INSERT INTO chuyenbay VALUES('CB15','2019-12-30 7:00:00','2019-12-30 8:00:00','50','50','TB1','MB15');
+INSERT INTO chuyenbay VALUES('CB16','2019-12-30 12:00:00','2019-12-30 13:00:00','50','50','TB1','MB16');
+INSERT INTO chuyenbay VALUES('CB17','2019-12-31 7:00:00','2019-12-31 8:00:00','50','50','TB1','MB17');
+INSERT INTO chuyenbay VALUES('CB18','2019-12-31 12:00:00','2019-12-31 13:00:00','50','50','TB1','MB18');
+*/
+
+
+/*Tuyến1
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB1','2020-1-1 7:00:00','2020-1-1 8:00:00','50','50','TB1','MB1');
+INSERT INTO chuyenbay VALUES('CB2','2020-1-1 12:00:00','2020-1-1 13:00:00','50','50','TB1','MB2');
+INSERT INTO chuyenbay VALUES('CB3','2020-1-2 7:00:00','2020-1-2 8:00:00','50','50','TB1','MB3');
+INSERT INTO chuyenbay VALUES('CB4','2020-1-2 12:00:00','2020-1-2 13:00:00','50','50','TB1','MB4');
+INSERT INTO chuyenbay VALUES('CB5','2020-1-3 7:00:00','2020-1-3 8:00:00','50','50','TB1','MB1');
+INSERT INTO chuyenbay VALUES('CB6','2020-1-3 12:00:00','2020-1-3 13:00:00','50','50','TB1','MB2');
+INSERT INTO chuyenbay VALUES('CB7','2020-1-4 7:00:00','2020-1-4 8:00:00','50','50','TB1','MB3');
+INSERT INTO chuyenbay VALUES('CB8','2020-1-4 12:00:00','2020-1-4 13:00:00','50','50','TB1','MB4');
+INSERT INTO chuyenbay VALUES('CB9','2020-1-5 7:00:00','2020-1-5 8:00:00','50','50','TB1','MB1');
+INSERT INTO chuyenbay VALUES('CB10','2020-1-5 12:00:00','2020-1-5 13:00:00','50','50','TB1','MB2');
+INSERT INTO chuyenbay VALUES('CB11','2020-1-6 7:00:00','2020-1-6 8:00:00','50','50','TB1','MB3');
+INSERT INTO chuyenbay VALUES('CB12','2020-1-6 12:00:00','2020-1-6 13:00:00','50','50','TB1','MB4');
+INSERT INTO chuyenbay VALUES('CB13','2020-1-7 7:00:00','2020-1-7 8:00:00','50','50','TB1','MB1');
+INSERT INTO chuyenbay VALUES('CB14','2020-1-7 12:00:00','2020-1-7 13:00:00','50','50','TB1','MB2');
+INSERT INTO chuyenbay VALUES('CB15','2020-1-8 7:00:00','2020-1-8 8:00:00','50','50','TB1','MB3');
+INSERT INTO chuyenbay VALUES('CB16','2020-1-8 12:00:00','2020-1-8 13:00:00','50','50','TB1','MB4');
+
+
+--------------------------------------------------------
+Đã thêm
+--------------------------------------------------------
+
+
+
+
+
+/*Tuyến2
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB17','7:00:00','8:00:00','50','50','TB2','MB5','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB18','12:00:00','13:00:00','50','50','TB2','MB6','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB19','7:00:00','8:00:00','50','50','TB2','MB7','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB20','12:00:00','13:00:00','50','50','TB2','MB8','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB21','7:00:00','8:00:00','50','50','TB2','MB5','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB22','12:00:00','13:00:00','50','50','TB2','MB6','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB23','7:00:00','8:00:00','50','50','TB2','MB7','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB24','12:00:00','13:00:00','50','50','TB2','MB8','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB25','7:00:00','8:00:00','50','50','TB2','MB5','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB26','212:00:00','13:00:00','50','50','TB2','MB6','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB27','7:00:00','8:00:00','50','50','TB2','MB7','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB28','12:00:00','13:00:00','50','50','TB2','MB8','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB29','7:00:00','8:00:00','50','50','TB2','MB5','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB30','12:00:00','13:00:00','50','50','TB2','MB6','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB31','7:00:00','8:00:00','50','50','TB2','MB7','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB32','12:00:00','13:00:00','50','50','TB2','MB8','2020-1-8','2020-1-8');
+
+
+/*Tuyến3
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB33','7:00:00','8:00:00','50','50','TB3','MB9','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB34','12:00:00','13:00:00','50','50','TB3','MB10','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB35','7:00:00','8:00:00','50','50','TB3','MB11','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB36','12:00:00','13:00:00','50','50','TB3','MB12','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB37','7:00:00','8:00:00','50','50','TB3','MB9','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB38','12:00:00','13:00:00','50','50','TB3','MB10','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB39','7:00:00','8:00:00','50','50','TB3','MB11','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB40','12:00:00','13:00:00','50','50','TB3','MB12','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB41','7:00:00','8:00:00','50','50','TB3','MB9','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB42','12:00:00','13:00:00','50','50','TB3','MB10','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB43','7:00:00','8:00:00','50','50','TB3','MB11','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB44','12:00:00','13:00:00','50','50','TB3','MB12','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB45','7:00:00','8:00:00','50','50','TB3','MB9','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB46','12:00:00','13:00:00','50','50','TB3','MB10','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB47','7:00:00','8:00:00','50','50','TB3','MB11','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB48','12:00:00','13:00:00','50','50','TB3','MB12','2020-1-8','2020-1-8');
+
+/*Tuyến4
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB49','7:00:00','8:00:00','50','50','TB4','MB13','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB50','12:00:00','13:00:00','50','50','TB4','MB14','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB51','7:00:00','8:00:00','50','50','TB4','MB15','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB52','12:00:00','13:00:00','50','50','TB4','MB16','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB53','7:00:00','8:00:00','50','50','TB4','MB13','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB54','12:00:00','13:00:00','50','50','TB4','MB14','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB55','7:00:00','8:00:00','50','50','TB4','MB15','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB56','12:00:00','13:00:00','50','50','TB4','MB16','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB57','7:00:00','8:00:00','50','50','TB4','MB13','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB58','12:00:00','13:00:00','50','50','TB4','MB14','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB59','7:00:00','8:00:00','50','50','TB4','MB15','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB60','12:00:00','13:00:00','50','50','TB4','MB16','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB61','7:00:00','8:00:00','50','50','TB4','MB13','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB62','12:00:00','13:00:00','50','50','TB4','MB14','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB63','7:00:00','8:00:00','50','50','TB4','MB15','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB64','12:00:00','13:00:00','50','50','TB4','MB16','2020-1-8','2020-1-8');
+
+
+
+/*Tuyến5
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB65','7:00:00','8:00:00','50','50','TB5','MB17','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB66','12:00:00','13:00:00','50','50','TB5','MB18','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB67','7:00:00','8:00:00','50','50','TB5','MB19','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB68','12:00:00','13:00:00','50','50','TB5','MB20','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB69','7:00:00','8:00:00','50','50','TB5','MB17','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB70','12:00:00','13:00:00','50','50','TB5','MB18','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB71','7:00:00','8:00:00','50','50','TB5','MB19','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB72','12:00:00','13:00:00','50','50','TB5','MB20','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB73','7:00:00','8:00:00','50','50','TB5','MB17','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB74','12:00:00','13:00:00','50','50','TB5','MB18','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB75','7:00:00','8:00:00','50','50','TB5','MB19','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB76','12:00:00','13:00:00','50','50','TB5','MB20','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB77','7:00:00','8:00:00','50','50','TB5','MB17','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB78','12:00:00','13:00:00','50','50','TB5','MB18','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB79','7:00:00','8:00:00','50','50','TB5','MB19','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB80','12:00:00','13:00:00','50','50','TB5','MB20','2020-1-8','2020-1-8');
+
+
+
+/*Tuyến6
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB81','7:00:00','8:00:00','50','50','TB6','MB21','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB82','12:00:00','13:00:00','50','50','TB6','MB22','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB83','7:00:00','8:00:00','50','50','TB6','MB23','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB84','12:00:00','13:00:00','50','50','TB6','MB24','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB85','7:00:00','8:00:00','50','50','TB6','MB21','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB86','12:00:00','13:00:00','50','50','TB6','MB22','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB87','7:00:00','8:00:00','50','50','TB6','MB23','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB88','12:00:00','13:00:00','50','50','TB6','MB24','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB89','7:00:00','8:00:00','50','50','TB6','MB21','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB90','12:00:00','13:00:00','50','50','TB6','MB22','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB91','7:00:00','8:00:00','50','50','TB6','MB23','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB92','12:00:00','13:00:00','50','50','TB6','MB24','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB93','7:00:00','8:00:00','50','50','TB6','MB21','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB94','12:00:00','13:00:00','50','50','TB6','MB22','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB95','7:00:00','8:00:00','50','50','TB6','MB23','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB96','12:00:00','13:00:00','50','50','TB6','MB24','2020-1-8','2020-1-8');
+
+
+
+/*Tuyến7
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB97','7:00:00','8:00:00','50','50','TB7','MB25','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB98','12:00:00','13:00:00','50','50','TB7','MB26','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB99','7:00:00','8:00:00','50','50','TB7','MB27','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB100','12:00:00','13:00:00','50','50','TB7','MB28','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB101','7:00:00','8:00:00','50','50','TB7','MB25','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB102','12:00:00','13:00:00','50','50','TB7','MB26','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB103','7:00:00','8:00:00','50','50','TB7','MB27','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB104','12:00:00','13:00:00','50','50','TB7','MB28','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB105','7:00:00','8:00:00','50','50','TB7','MB25','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB106','12:00:00','13:00:00','50','50','TB7','MB26','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB107','7:00:00','8:00:00','50','50','TB7','MB27','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB108','12:00:00','13:00:00','50','50','TB7','MB28','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB109','7:00:00','8:00:00','50','50','TB7','MB25','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB110','12:00:00','13:00:00','50','50','TB7','MB26','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB111','7:00:00','8:00:00','50','50','TB7','MB27','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB112','12:00:00','13:00:00','50','50','TB7','MB28','2020-1-8','2020-1-8');
+
+
+
+/*Tuyến8
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB113','7:00:00','8:00:00','50','50','TB8','MB29','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB114','12:00:00','13:00:00','50','50','TB8','MB30','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB115','7:00:00','8:00:00','50','50','TB8','MB31','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB116','12:00:00','13:00:00','50','50','TB8','MB32','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB117','7:00:00','8:00:00','50','50','TB8','MB29','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB118','12:00:00','13:00:00','50','50','TB8','MB30','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB119','7:00:00','8:00:00','50','50','TB8','MB31','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB120','12:00:00','13:00:00','50','50','TB8','MB32','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB121','7:00:00','8:00:00','50','50','TB8','MB29','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB122','12:00:00','13:00:00','50','50','TB8','MB30','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB123','7:00:00','8:00:00','50','50','TB8','MB31','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB124','12:00:00','13:00:00','50','50','TB8','MB32','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB125','7:00:00','8:00:00','50','50','TB8','MB29','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB126','12:00:00','13:00:00','50','50','TB8','MB30','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB127','7:00:00','8:00:00','50','50','TB8','MB31','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB128','12:00:00','13:00:00','50','50','TB8','MB32','2020-1-8','2020-1-8');
+
+
+
+	
+/*Tuyến9
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB129','7:00:00','8:00:00','50','50','TB9','MB33','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB130','12:00:00','13:00:00','50','50','TB9','MB34','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB131','7:00:00','8:00:00','50','50','TB9','MB35','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB132','12:00:00','13:00:00','50','50','TB9','MB36','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB133','7:00:00','8:00:00','50','50','TB9','MB33','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB134','12:00:00','13:00:00','50','50','TB9','MB34','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB135','7:00:00','8:00:00','50','50','TB9','MB35','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB136','12:00:00','13:00:00','50','50','TB9','MB36','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB137','7:00:00','8:00:00','50','50','TB9','MB33','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB138','12:00:00','13:00:00','50','50','TB9','MB34','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB139','7:00:00','8:00:00','50','50','TB9','MB35','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB140','12:00:00','13:00:00','50','50','TB9','MB36','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB141','7:00:00','8:00:00','50','50','TB9','MB33','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB142','12:00:00','13:00:00','50','50','TB9','MB34','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB143','7:00:00','8:00:00','50','50','TB9','MB35','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB144','12:00:00','13:00:00','50','50','TB9','MB36','2020-1-8','2020-1-8');
+
+
+
+/*Tuyến10
+--------------------------------------------------------*/
+INSERT INTO chuyenbay VALUES('CB145','7:00:00','8:00:00','50','50','TB10','MB37','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB146','12:00:00','13:00:00','50','50','TB10','MB38','2020-1-1','2020-1-1');
+INSERT INTO chuyenbay VALUES('CB147','7:00:00','8:00:00','50','50','TB10','MB39','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB148','12:00:00','13:00:00','50','50','TB10','MB40','2020-1-2','2020-1-2');
+INSERT INTO chuyenbay VALUES('CB149','7:00:00','8:00:00','50','50','TB10','MB37','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB150','12:00:00','13:00:00','50','50','TB10','MB38','2020-1-3','2020-1-3');
+INSERT INTO chuyenbay VALUES('CB151','7:00:00','8:00:00','50','50','TB10','MB39','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB152','12:00:00','13:00:00','50','50','TB10','MB40','2020-1-4','2020-1-4');
+INSERT INTO chuyenbay VALUES('CB153','7:00:00','8:00:00','50','50','TB10','MB37','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB154','12:00:00','13:00:00','50','50','TB10','MB38','2020-1-5','2020-1-5');
+INSERT INTO chuyenbay VALUES('CB155','7:00:00','8:00:00','50','50','TB10','MB39','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB156','12:00:00','13:00:00','50','50','TB10','MB40','2020-1-6','2020-1-6');
+INSERT INTO chuyenbay VALUES('CB157','7:00:00','8:00:00','50','50','TB10','MB37','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB158','12:00:00','13:00:00','50','50','TB10','MB38','2020-1-7','2020-1-7');
+INSERT INTO chuyenbay VALUES('CB159','7:00:00','8:00:00','50','50','TB10','MB39','2020-1-8','2020-1-8');
+INSERT INTO chuyenbay VALUES('CB160','12:00:00','13:00:00','50','50','TB10','MB40','2020-1-8','2020-1-8');
+
+
+/*--------------------------------------------------------
+Hạng vé
+--------------------------------------------------------*/
+
+
+INSERT INTO hangve VALUES('Eco', 'Eco');
+INSERT INTO hangve VALUES('Bussiness', 'Bussiness');
+
+/*--------------------------------------------------------
+Đơn giá
+--------------------------------------------------------*/
+
+INSERT INTO dongia VALUES('Eco', 600000);
+INSERT INTO dongia VALUES('Bussiness', 1200000);
+

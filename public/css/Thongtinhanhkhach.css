@@ -1,0 +1,49 @@
+.li-active{
+	background-color: #0B0B3B;
+	color: #fff;	
+	text-align: center;
+}
+.li{
+	background-color: #fff;
+	color: #0B0B3B;	
+	text-align: center;
+}
+
+#ol-groups{
+	background-color:  #EDF3F7;
+}
+
+div#info-gr .info{
+	display: inline-block;
+	float: left;
+	font-family: urw-din,Arial,sans-serif;
+}
+#table-p{
+	
+	border: 1px solid #898F95;
+
+} 
+.h2{
+	margin-left: 100px;
+}
+caption{
+	background-color: #0B0B3B;
+	color: #fff;
+	height: 50px;
+	padding-top: 20px;
+	font-size:20px ; 
+}
+.info table{
+	margin-left: 100px;
+	background-color: #fff;
+	
+}
+.text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+}

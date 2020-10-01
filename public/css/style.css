@@ -1,0 +1,188 @@
+body{
+	background-color:  #fff;
+}
+
+.container{
+	background-color: #fff;
+}
+header{
+	background: url("../img/db.jpg");
+	height: 150px;
+}
+
+.menu ul{
+	background: url("../img/db.jpg");
+	list-style-type: none;
+	
+
+}
+
+
+.menu li{
+	font-family: urw-din,Arial,sans-serif;
+	display: inline-block ;
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+}
+
+.menu a:hover{
+	background: #0B0B3B;
+	color: #fff;
+	border-radius: 12px;
+}
+
+.sub-menu li{
+	margin-right: 10px;
+	text-align: left;
+}
+
+.sub-menu{
+	display:  none;
+	position:  absolute;
+ 	background: #234664;
+}
+
+
+
+.menu li:hover .sub-menu{
+	display: inline-block;
+	background: #234664;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+.sub-menu li ul{
+	position: absolute;
+	display: block;
+	margin-right: -10px;
+	background: #234664;
+}
+
+#menu1 {
+	color: #333;
+	border-top: 1px solid #898F95;
+	width : 1500px;
+	height: 400px;
+	background: #234664;
+	text-align: left;
+}
+#menu1 a{
+	background: #234664;
+	display: block;
+	text-align: left;
+	color: #fff;
+}
+#menu1 a:hover{
+	color: #FFFF00;
+}
+
+#menu1 ul li{
+	font-weight: normal;
+	font-size: 15px;
+}
+
+
+
+input{
+	width: 500px;
+	padding-top : 10px;
+	padding-bottom: 10px;
+	border: 1px solid #acd9f5;
+	border-radius: 5px;
+	background: #fff;
+	font-weight: 600;
+}
+
+.datalist1{
+	width: 500px;
+}
+
+
+th{
+	text-align: left;
+	font-family: urw-din,Arial,sans-serif;
+	font-size:20px;
+}
+
+.Timcb{
+	font-family: urw-din,Arial,sans-serif;
+	margin-top:10px;
+	margin-left:20px;
+	height: 70px;
+	width: 220px;
+	font-size:25px;
+	background-color: Green;
+	color: #fff;
+}
+
+.btn{
+	font-family: urw-din,Arial,sans-serif;
+		font-size:17px;
+	float: left;
+	display: inline-block;
+	border-radius: 4px;
+	height: 40px;
+	width:250px;
+	background-color: #fff;
+	color: #0B0B3B;
+	cursor: pointer;
+}
+.active, .btn:hover {
+	display: block;
+	background-color: #0B0B3B;
+	color: #fff;
+	font-family: urw-din,Arial,sans-serif;
+		font-size:17px;
+}
+
+
+ol{
+	
+	background: #3333;
+}
+ol li {
+   	display: inline-block;
+   	margin-left: 60px;
+   	padding-left: 50px;
+   	padding-right: 50px;
+   	width: 140px;
+   	height: 20px;
+   	line-height: 20px;
+   	border-radius: 5px;
+   	border: 1px solid #898F95;
+}
+.chuyendi{
+	margin-left: 30px;
+}
+
+.HinhAnhBanner{
+	margin-top: 35px;
+	background: url("../img/BG3.png");
+	width:100%;
+	height:425px;
+}
+
+.inputdulieu{
+		font-family: urw-din,Arial,sans-serif;
+		font-size:17px;
+}
+.button{
+	background-color: blue;
+	color:white;
+	height:50px;
+	width:322px;
+	font-size:20px;
+	border-radius: 5px;
+}

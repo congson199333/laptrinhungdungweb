@@ -1,0 +1,57 @@
+.li-active{
+	background-color: #0B0B3B;
+	color: #fff;	
+	text-align: center;
+}
+.li{
+	background-color: #fff;
+	color: #0B0B3B;	
+	text-align: center;
+}
+
+#ol-groups{
+	background-color:  #EDF3F7;
+}
+
+div#info-gr .info{
+	display: inline-block;
+	float: left;
+	font-family: "urw-din",Arial,sans-serif;
+}
+#table-p{
+	
+	border: 1px solid #898F95;
+
+} 
+.h2{
+	margin-left: 100px;
+}
+.info table{
+	margin-left: 100px;
+	background-color: #fff;
+	
+}
+
+.divxemlaihanhtrinh{
+	margin-left:100px;
+	width:750px;
+	background-color:#EDF3F7;
+	font-family: "urw-din",Arial,sans-serif;
+	font-weight:normal;
+	font-size:20px;
+}
+.divkhungchuyenbay{
+	margin-left:100px;
+	width:750px;
+	font-family: "urw-din",Arial,sans-serif;
+	background-color:#fff;
+}
+.chuyenbay{
+	background-color: #33597C;
+	color:#fff;
+	width:750px;
+	height:50px;
+	font-size:23px;
+	line-height: 50px;
+}
+
